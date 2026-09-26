@@ -1,0 +1,6 @@
+# Optional provenance; candidates do not authorize planning.
+candidates:
+  - historical_id: old-press-name
+    approved_as: neutral-grip-dumbbell-press
+    observed_names: [Old Press Name]
+    source_protocol_ids: [example-legacy-plan]

@@ -1,0 +1,16 @@
+# Example only. Save an approved plan with a unique filename and ID under plans/.
+id: example-plan
+name: Example full-body circuit
+one_off: true
+blocks:
+  - id: first
+    type: circuit
+    rounds: 2
+    rest_seconds_after_round: 90
+    exercises:
+      - exercise_id: neutral-grip-dumbbell-press
+        sets:
+          - reps: {min: 8, max: 10}
+            load_lb: 20
+            load_basis: per_hand
+            effort: {type: rir, min: 2, max: 3}

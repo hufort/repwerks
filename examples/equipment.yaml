@@ -1,0 +1,8 @@
+# Example only. Use its shape for catalog/equipment.yaml; replace these items with your equipment.
+equipment:
+  - id: adjustable-dumbbells
+    name: Adjustable dumbbells
+    notes: Pair; record the available weight range and any shared attachments.
+  - id: adjustable-bench
+    name: Adjustable bench
+    notes: Flat and upright settings.

@@ -1,0 +1,9 @@
+# Example only. Use its shape for catalog/approved-exercises.yaml; approve your own entries.
+# Equipment IDs must exist in catalog/equipment.yaml.
+exercises:
+  - id: neutral-grip-dumbbell-press
+    name: Neutral-Grip DB Press
+    primary: [chest]
+    secondary: [shoulders, triceps]
+    equipment: [adjustable-dumbbells, adjustable-bench]
+    setup_notes: Use a flat bench and a neutral grip.
