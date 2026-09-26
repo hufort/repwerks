@@ -1,6 +1,6 @@
 # Repwerks
 
-Use the local skills as the interface. Read `workspace.yaml` first (absent means `unconfigured`). For setup, load `.agents/skills/onboarding/SKILL.md`; for workouts, history or training changes, load `.agents/skills/workout/SKILL.md`. Read skill files directly if your harness does not discover them. Follow `docs/exercise-catalog.md` and `docs/plans-and-sessions.md`.
+Use the local skills as the interface. Read `workspace.yaml` first (absent means `unconfigured`). If its status is `unconfigured` or `partially configured`, load `.agents/skills/onboarding/SKILL.md` and continue setup with the user, including immediately after opening a newly downloaded copy. For workouts, history or training changes in a configured workspace, load `.agents/skills/workout/SKILL.md`. Read skill files directly if your harness does not discover them. Follow `docs/exercise-catalog.md` and `docs/plans-and-sessions.md`.
 
 ## Setup status
 

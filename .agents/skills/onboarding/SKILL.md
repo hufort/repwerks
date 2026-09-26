@@ -1,11 +1,11 @@
 ---
 name: onboarding
-description: Set up a new or partially configured local Repwerks workspace with an equipment inventory and a small user-approved exercise catalog. Use when the user asks to install, bootstrap, personalize, or import exercises into a new copy of this repository.
+description: Set up a new or partially configured local Repwerks workspace with an equipment inventory and a small user-approved exercise catalog. Use whenever workspace.yaml is absent or its status is unconfigured or partially configured, including after opening a newly downloaded copy; also use for requests to install, bootstrap, personalize, or import exercises into a new copy.
 ---
 
 # Onboard a Repwerks workspace
 
-This skill operates on the *local project folder*, not a global skill installation. Check `workspace.yaml` if present, then inspect the personal files; an absent flag means `unconfigured`, not that existing data can be overwritten. Read `docs/exercise-catalog.md` and `examples/` for catalog file shapes. `AGENTS.md` routes later workout requests to the workout skill. If you are reading this before the source is on disk, follow the download guidance in `README.md`, then reopen the local folder and continue here. Do not assume a chat-only agent has local file access.
+This skill operates on the *local project folder*, not a global skill installation. Read `workspace.yaml` if present; absence, `unconfigured`, or `partially configured` calls for onboarding, even if the user has only asked to open a newly downloaded copy. Inspect personal files before writing: the status signals what workflow to use, not permission to overwrite data. Read `docs/exercise-catalog.md` and `examples/` for catalog file shapes. `AGENTS.md` routes later workout requests to the workout skill. If you are reading this before the source is on disk, follow the download guidance in `README.md`, then reopen the local folder and continue here. Do not assume a chat-only agent has local file access.
 
 ## Obtain and protect the workspace
 
