@@ -5,13 +5,11 @@ description: Set up a new or partially configured local Repwerks workspace with 
 
 # Onboard a Repwerks workspace
 
-This skill operates on the *local project folder*, not a global skill installation. Read `workspace.yaml` if present; absence, `unconfigured`, or `partially configured` calls for onboarding, even if the user has only asked to open a newly downloaded copy. Inspect personal files before writing: the status signals what workflow to use, not permission to overwrite data. Read `docs/exercise-catalog.md` and `examples/` for catalog file shapes. `AGENTS.md` routes later workout requests to the workout skill. If you are reading this before the source is on disk, follow the download guidance in `README.md`, then reopen the local folder and continue here. Do not assume a chat-only agent has local file access.
+This skill operates on the local project folder. Read `workspace.yaml` if present; absence, `unconfigured`, or `partially configured` calls for onboarding, including after opening a newly downloaded copy. Read `docs/exercise-catalog.md` and `examples/` for catalog file shapes.
 
-## Obtain and protect the workspace
+## Protect existing data
 
-- For a public repository, offer to download its source ZIP and extract it into a folder the user chooses and can reopen. This does not require Git or a GitHub account. A Git clone is an optional advanced choice. If you cannot download or write local files, guide the user through GitHub's **Code → Download ZIP**, extraction, and opening the resulting folder in a file-capable agent; do not claim setup is complete from a chat-only conversation. Ask for any necessary local permissions.
-- Before copying/extracting into an existing location or writing any personal file, inspect it. Never overwrite existing catalogs, plans, or sessions while acquiring source. If this is a partial setup, read what's present, identify what remains, and ask before changing existing personal files.
-- Personal files are ignored by Git by default, but they are not automatically backed up. Do not delete existing data or replace it with example files.
+Inspect personal files before writing; setup status is not permission to overwrite them. For partial setup, identify what remains and ask before changing existing personal files. Never delete existing data or replace it with examples. Personal files are ignored by Git, not automatically backed up.
 
 ## Short intake
 
