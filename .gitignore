@@ -5,6 +5,6 @@
 # Personal workout data; tracked examples and trainer instructions remain shareable.
 /user-profile.md
 /workspace.yaml
-/sessions/
+/sessions/*.json
 /catalog/*.yaml
 /plans/*.yaml
