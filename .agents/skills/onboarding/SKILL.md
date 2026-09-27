@@ -13,7 +13,7 @@ Inspect personal files before writing; setup status is not permission to overwri
 
 ## Short intake
 
-Ask only enough to prepare a usable starter inventory, catalog and profile, combining questions where convenient:
+At each major turn, give a brief, plain-language explanation of why you're asking or what the answer will shape. Keep it to about a sentence, tied to the user's training rather than files or setup mechanics; don't explain every individual question or repeat the same rationale. Ask only enough to prepare a usable starter inventory, catalog and profile, combining questions where convenient:
 
 1. What equipment is available? Bodyweight-only is an explicit valid answer. Clarify equipment details only when they matter for suggested movements (for example, whether a pull-up bar exists).
 2. Are there movements or setups the user wants to avoid, and how familiar are they with strength training? Do not require demographics, medical history, or a detailed questionnaire. Avoid treating an agent's suggestions as medical clearance.
