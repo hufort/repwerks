@@ -1,10 +1,10 @@
 # Repwerks
 
-Use the local skills as the interface. Read `workspace.yaml` first (absent means `unconfigured`). If its status is `unconfigured` or `partially configured`, load `.agents/skills/onboarding/SKILL.md` and continue setup with the user, including immediately after opening a newly downloaded copy. For workouts, history or training changes in a configured workspace, load `.agents/skills/workout/SKILL.md`. Read skill files directly if your harness does not discover them. Follow `docs/exercise-catalog.md` and `docs/plans-and-sessions.md`.
+Use the local skills as the interface. Read `workspace.yaml` first (absent means `unconfigured`). If its status is `unconfigured` or `partially configured`, load `.agents/skills/repwerk-onboard/SKILL.md` and continue setup with the user, including immediately after opening a newly downloaded copy. In a configured workspace, load the skill for the task: `repwerk-plan` to design or revise plans, `repwerk-run` to perform or log a session, `repwerk-history` for recaps and history, `repwerk-personalize` for lasting goals, constraints or equipment, and `repwerk-approve-exercise` for catalog additions. For a new workout, plan and save it before running it; load both skills when a request spans both phases. Read skill files directly if your harness does not discover them. Follow `docs/exercise-catalog.md` and `docs/plans-and-sessions.md` as relevant.
 
 ## Setup status
 
-Keep `workspace.yaml` status (`unconfigured`, `partially configured`, or `configured`) current by inspecting personal files, not trusting the flag. `configured` requires a profile, equipment inventory (bodyweight-only is valid), and enough approved exercises for a useful workout. If the file is absent, let onboarding inspect existing data before writing.
+Keep `workspace.yaml` status (`unconfigured`, `partially configured`, or `configured`) current by inspecting personal files, not trusting the flag. `configured` requires a profile, equipment inventory (bodyweight-only is valid), and enough approved exercises for a useful workout. If the file is absent, let onboarding inspect existing data before writing. If the flag says `configured` but required personal data is missing, correct it and use onboarding before training.
 
 ## User-facing posture
 
