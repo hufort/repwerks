@@ -26,20 +26,23 @@ A file-capable agent can download and open the project for you. If it cannot dow
 
 ## Work with Repwerks
 
-Once setup is complete, open your Repwerks folder with your agent and ask it to:
+Once setup is complete, open your Repwerks folder with your agent whenever you want to train or look back on past workouts.
 
-- Plan a workout around your goals, equipment, and available time.
-- Guide you through the workout and save what you did.
-- Recap a session or compare it with past workouts.
+### What can Repwerks do?
 
-This is a starting point, not a fixed program. Tell the agent what fits and what doesn't; it can carry your preferences into future workouts. You can also ask it to change how the trainer works, not just what it plans for you. For example:
+Ask your agent to plan a workout around your goals, equipment, and available time. It can guide you through the workout, save what you did, and later recap a session or compare it with past workouts.
+
+### Make it your own
+
+Repwerks is a starting point, not a fixed program. Tell your agent what fits and what doesn't; it can carry your preferences into future workouts. You can also ask it to change how the trainer works. For example:
 
 - “Don't include that exercise in future workouts.”
 - “I've got a pull-up bar now.”
 - “Show me a shorter summary between sets.”
-- “Change how you suggest increasing difficulty over time.”
+- “Add a workout rating system and use it when planning new workouts.”
+- “Help me build a monthly review that spots patterns in my training and suggests what to change.”
 
-You don't need to know how the project is organized or edit it yourself. The agent can talk through a change with you and save it for next time.
+You don't need to edit the project yourself. Talk through a change with your agent and ask it to save it for next time.
 
 ## Keep your training safe
 
