@@ -4,13 +4,15 @@ Repwerks helps a local AI agent plan workouts, guide sessions, and remember what
 
 ## Get started
 
-Send this to a **file-capable** agent, such as Codex or Claude Cowork (a web-only chat cannot save your workouts):
+Copy this prompt into your agent:
 
 ```text
 Help me set up Repwerks in a local folder I can find again: https://github.com/hufort/repwerks
+
+First, check whether this session can read and write local files. If it cannot, tell me how to start a file-capable session in the app I'm using and ask me to send this prompt there. Don't try to complete setup in a web-only chat.
 ```
 
-The agent can download the project and open a copy for you. If it cannot, ask it to guide you through GitHub’s **Code → Download ZIP**, extracting the ZIP, and opening the folder in a file-capable agent. Grant file access when asked. **Never extract a new copy over a folder with existing training data.**
+A file-capable agent can download and open the project for you. If it cannot download it, ask it to guide you through GitHub’s **Code → Download ZIP**, extracting the ZIP, and opening the folder in that session. Grant file access when asked. **Never extract a new copy over a folder with existing training data.**
 
 ## Keep your training safe
 
