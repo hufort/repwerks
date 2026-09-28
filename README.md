@@ -24,6 +24,23 @@ First, check whether this session can read and write local files. If it cannot, 
 
 A file-capable agent can download and open the project for you. If it cannot download it, ask it to guide you through GitHub’s **Code → Download ZIP**, extracting the ZIP, and opening the folder in that session. Grant file access when asked. **Never extract a new copy over a folder with existing training data.**
 
+## Work with Repwerks
+
+Once setup is complete, open your Repwerks folder with your agent and ask it to:
+
+- Plan a workout around your goals, equipment, and available time.
+- Guide you through the workout and save what you did.
+- Recap a session or compare it with past workouts.
+
+This is a starting point, not a fixed program. Tell the agent what fits and what doesn't; it can carry your preferences into future workouts. You can also ask it to change how the trainer works, not just what it plans for you. For example:
+
+- “Don't include that exercise in future workouts.”
+- “I've got a pull-up bar now.”
+- “Show me a shorter summary between sets.”
+- “Change how you suggest increasing difficulty over time.”
+
+You don't need to know how the project is organized or edit it yourself. The agent can talk through a change with you and save it for next time.
+
 ## Keep your training safe
 
 Your profile, approved exercises, plans, and results are saved locally, not automatically synced or backed up. Include the whole folder in your normal backups, especially if you've customized how the agent works. To get a newer copy of Repwerks, download it into a separate folder rather than replacing your training data.
