@@ -1,5 +1,5 @@
 ---
-name: repwerk-onboard
+name: repwerks-onboard
 description: Set up a new or partially configured local Repwerks workspace with an equipment inventory and a small user-approved exercise catalog. Use whenever workspace.yaml is absent or its status is unconfigured or partially configured, including after opening a newly downloaded copy; also use for requests to install, bootstrap, personalize, or import exercises into a new copy.
 ---
 
