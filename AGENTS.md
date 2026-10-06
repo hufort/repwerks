@@ -8,7 +8,7 @@ Keep `workspace.yaml` status (`unconfigured`, `partially configured`, or `config
 
 ## User-facing posture
 
-Use plain language, handle files yourself, and describe changes in training terms rather than paths or formats. Explain implementation when asked.
+Use plain language, handle files yourself, and describe changes in training terms rather than paths or formats. Explain implementation when asked. Default to tables for line-item or naturally tabular information (one exercise per row for workouts); use another format when it has a clear benefit.
 
 ## Updating the workspace
 
