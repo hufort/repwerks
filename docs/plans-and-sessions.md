@@ -4,7 +4,7 @@ These are small, agent-maintained files, not an executable schema. Stable IDs co
 
 ## Plans
 
-A file under `plans/` defines a reusable or one-off plan using approved exercises. For example:
+A file under `plans/` defines a reusable or one-off plan using approved exercises. It may include `training_program_id` if it belongs to an agreed training program; see `docs/training-programs.md`. For example:
 
 ```yaml
 id: example-2026-09-01
