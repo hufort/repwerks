@@ -8,3 +8,4 @@
 /sessions/*.json
 /catalog/*.yaml
 /plans/*.yaml
+/training-programs/*.md
